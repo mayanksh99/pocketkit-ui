@@ -41,11 +41,11 @@
                         <a class="nav-link" href="./news_index.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./movies_index.html">Movies</a>
+                        <a class="nav-link active" href="./movies_index.html">Movies</a>
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 Blogs
                                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -60,58 +60,31 @@
         </div>
     </nav>
     <div style="background: url(../assets/images/dark.png)">
-        <div class="fluid-container" style="padding-bottom: 0;">
-            <div class="container" style="height: 100%;">
+        <div class="fluid-container">
+            <div class="container">
                 <div class="col">
-                    <h1 class="title main__title text-center pt-4">Blogs</h1>
-                    <div class="col" style="display: inline-flex">
-                        <div class="blogz">
-                            <span><a href="./blog_add.html"><img src="../assets/images/Add_blogs.png" alt="add" style="height: 70px; width: 70px"></a></span>
-                        </div>
-                    </div>
+                    <h1 class="title main_title text-center pt-4">Movie</h1>
                 </div>
-                <div class="col pt-4">
-                    <div class="card mt-4 mx-auto">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card">
                         <div class="row">
-                            <div class="col-6 mx-auto">
-                                <img src="../assets/images/books.jpg" class="card-img-top img-fluid" alt="img">
+                            <div class="col-lg-4">
+                                <img class="img-fluid mb-4" src="../assets/images/book1.jpg" alt="">
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="title mt-2">Lorem ipsum dolor</h4>
-                            <p class="card-block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit quisquam veniam excepturi temporibus inventore corporis dicta sit culpa veritatis placeat earum
-                            </p>
-                            <p class="blockquote-footer text-right">Author</p>
-                            <span class="blockquote-footer text-right"><i class="far fa-calendar-alt"></i> March 14, 2018  </span>
-                            <button class="btn btn-outline-dark" onclick="like()"><span class="fas fa-heart"></span><span id="no" class="ml-2"></span></button>
-                            <button class="btn btn-outline-dark"><span class="fas fa-comment"></span>  05</button>
-                            <a href="./blog_edit.html" class="btn btn-outline-dark edit">Edit</a>
-                            <button class="btn btn-outline-dark del">Delete</button>
-
-                            <form class="form-group">
-                                <div class="mt-4">
-                                    <h2>Leave a Comment!</h2>
-                                    <p>Comment:</p>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                                    <a href="#" class="btn btn-primary btn-outline-dark  sub_btn custom_btn mt-4">Submit</a>
-                                </div>
-                            </form>
-                            <div class="container">
-                                <h4>Recent Comments!</h4>
-                                <div class="row">
-                                    <div class="col-lg-3">
-                                        <div class="col-lg-9">
-                                            <img src="../assets/images/books.jpg" alt="" class="img-fluid img-thumbnail">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-9">
-                                        <h4>Lorem ipsum dolor sit</h4>
-                                        <div style="color: #444444; font-size: 15px;">
-                                            <span>March 14, 2018  </span>
-                                            <span><h6 >Comment Content</h6></span>
-                                        </div>
-                                    </div>
+                            <div class="col-lg-6">
+                                <div class="info">
+                                    <h1 class="title" style="font-size: 30px">Movie Name</h1>
+                                    <span><i class="fas fa-calendar"></i><strong class="description"> Date of Release :</strong> March 14, 2018</span>
+                                    <br>
+                                    <span><i class="fas fa-clock"></i><strong class="description"> Runtime :</strong> March 14, 2018</span>
+                                    <br>
+                                    <span><strong class="description"> Category :</strong> Action</span>
+                                    <br>
+                                    <span><i class="fas fa-tag"></i><strong class="description"> Plot :</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, fuga voluptate, porro laudantium molestias reiciendis tempora officia id nihil natus eum corrupti a explicabo accusantium. Assumenda voluptatem cumque quod omnis.</span>
+                                    <br>
+                                    <span><i class="fas fa-users"></i><strong class="description"> Actor :</strong> Akshay Kumar</span>
+                                    <br>
+                                    <span><i class="fas fa-star"></i></i><strong class="description"> Rating :</strong><strong> 8.7</strong>/10 <i class="fab fa-imdb"></i></span>
                                 </div>
                             </div>
                         </div>
@@ -119,8 +92,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <hr>
 
@@ -148,18 +119,8 @@
              ">
                 <p style="margin: 0; padding: 0;">Designed and Developed with 🧡 by Team Pocket KIT</p>
             </div>
+        </footer>
     </div>
-    </footer>
-    </div>
-    <script>
-        var likes = 0;
-
-        function like() {
-            document.getElementById('no').innerHTML = likes;
-            likes = likes + 1;
-
-        }
-    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
