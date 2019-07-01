@@ -29,29 +29,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto nav justify-content-end custom_nav" style="width: 100%;">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
+                        <a class="nav-link" href="./book.html">Books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contest</a>
+                        <a class="nav-link" href="./contest.html">Contest</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="./news_index.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Movies</a>
+                        <a class="nav-link" href="./movies_index.html">Movies</a>
                     </li>
                     <li class="nav-item">
                         <div class="dropdown">
                             <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Blogs
-                            </a>
-
+                                                Blogs
+                                            </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Add Blog</a>
-                                <a class="dropdown-item" href="#">Library</a>
+                                <a class="dropdown-item" href="./blog_add.html">Add Blog</a>
+                                <a class="dropdown-item" href="./blog_index.html">Library</a>
                             </div>
                         </div>
                     </li>
@@ -68,11 +67,11 @@
                     <div class="col" style="display: inline-flex">
                         <div class="blogz">
                             <span><a  href="#"><img src="../assets/images/My_blogs.png" alt="blogs" style="height: 70px; width: 70px"></a></span>
-                            <span><a href="#"><img src="../assets/images/Add_blogs.png" alt="add" style="height: 70px; width: 70px"></a></span>
+                            <span><a href="./blog_add.html"><img src="../assets/images/Add_blogs.png" alt="add" style="height: 70px; width: 70px"></a></span>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col pt-4">
                     <div class="card mt-4 mx-auto">
                         <div class="row">
                             <div class="col-6 mx-auto">
@@ -86,8 +85,11 @@
                             </p>
                             <p class="blockquote-footer text-right">Author</p>
                             <span class="blockquote-footer text-right"><i class="far fa-calendar-alt"></i> March 14, 2018  </span>
-                            <button class="btn btn-outline-dark" onclick="like()"><span class="fas fa-thumbs-up"></span><span id="no" class="ml-2"></span></button>
+                            <button class="btn btn-outline-dark" onclick="like()"><span class="fas fa-heart"></span><span id="no" class="ml-2"></span></button>
                             <button class="btn btn-outline-dark"><span class="fas fa-comment"></span>  05</button>
+                            <a href="./blog_edit.html" class="btn btn-outline-dark edit">Edit</a>
+                            <button class="btn btn-outline-dark del">Delete</button>
+
                             <form class="form-group">
                                 <div class="mt-4">
                                     <h2>Leave a Comment!</h2>

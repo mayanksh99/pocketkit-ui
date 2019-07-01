@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../assets/images/MUA_icon 2.png" rel="icon" type="image/png">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content="width=device-width" name="viewport" />
+    <title>Pocket KIT</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/stylesheets/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 2px 0px 6px #707070; background: #fff!important;">
+        <div class="container">
+            <img src="../assets/images/MUA_icon 2.png" alt="logo" height="25px" ; width="25px">
+            <a class="navbar-brand" style="font-weight: 700; margin-left: 4px" href="#">Pocket <span style="color: #1A73E8; ">KIT</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto nav justify-content-end custom_nav" style="width: 100%;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contest.html">Contest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news_index.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./movies_index.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blogs
+                                    </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="./blog_add.html">Add Blog</a>
+                                <a class="dropdown-item" href="./blog_index.html">Library</a>
+                            </div>
+                        </div>
+                    </li>
+                    <a href="#" class="btn btn-outline-dark sec_btn custom_btn" style="background: #fff; color: #4C4A78;"><img class="mr-2" src="../assets/images/search.png" height="22px" width="22px">Sign In</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="background: url(../assets/images/dark.png)">
+        <div class="fluid-container" style="padding-bottom: 0;">
+            <div class="container">
+                <div class="col">
+                    <h1 class="title main__title text-center pt-4">Books</h1>
+                    <div class="col" style="display: inline-flex">
+                        <div class="blogz">
+                            <span><a  href="./book_library.html"><img src="../assets/images/My Library.png" alt="blogs" style="height: 70px; width: 70px"></a></span>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="title main__title pt-4" style="font-size: 20px; margin-bottom: 30px">Search any Book</h1>
+                <form>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <input class="search-input mb-4" id="txt" type="text" placeholder="What are you looking for?">
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="#" class="btn btn-outline-dark sub_btn custom_btn" onclick="hello()">Search</a>
+                        </div>
+                    </div>
+                </form>
+
+                <div>
+                    <div class="recommended-books" style="display: block">
+                        <h1 class="title main__title pt-4" style="font-size: 20px; padding: 0; margin: 0;">Recommended Books :</h1>
+                        <div class="row mt-4">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="../assets/images/book1.jpg">
+                                    <h4 class="card-title mt-2">Lorem ipsum dolor</h4>
+                                    <p class="card-block">
+                                        <strong class=" description">Subtitle: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Author: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Publisher: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Date: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Description: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Category: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <a class="btn-more text-center" href="# ">See More</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="../assets/images/book1.jpg">
+                                    <h4 class="card-title mt-2">Lorem ipsum dolor</h4>
+                                    <p class="card-block">
+                                        <strong class=" description">Subtitle: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Author: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Publisher: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Date: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Description: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <p class="card-block">
+                                        <strong class=" description">Category: </strong>Lorem, ipsum dolor sit
+                                    </p>
+                                    <a class="btn-more text-center" href="# ">See More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="searched-books" style="display: none">
+                    <h1 class="title main__title pt-4" style="font-size: 20px; padding: 0; margin: 0;">Search Result :</h1>
+                    <div class="row mt-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img class="card-img-top" src="../assets/images/book1.jpg">
+                                <h4 class="card-title mt-2">Lorem ipsum dolor</h4>
+                                <p class="card-block">
+                                    <strong class=" description">Subtitle: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <p class="card-block">
+                                    <strong class=" description">Author: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <p class="card-block">
+                                    <strong class=" description">Publisher: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <p class="card-block">
+                                    <strong class=" description">Date: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <p class="card-block">
+                                    <strong class=" description">Description: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <p class="card-block">
+                                    <strong class=" description">Category: </strong>Lorem, ipsum dolor sit
+                                </p>
+                                <a class="btn-more text-center" href="# ">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Enter-some-text" style="display: none; margin-top: 50px; margin-bottom: 90px;">
+                    <div class="container">
+                        <div class="col-lg-12">
+                            <h1 class="title main__title text-center pt-4">No Results!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <div class="contactus">
+                    <div class="container pt-4 pb-4 ">
+                        <div class="row text-center">
+                            <div class="col-lg-2 mb-4">
+                                <h5 class="title " style="color: #444444;">About</h5>
+                                <li>This Application is developed as a Project. </li>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 ">
+                                <h5 class="title " style="color: #444444;">Contact</h5>
+                                <li><a href="mailto:ritiksr25@gmail.com " target="_blank ">Ritik Srivastava</a></li>
+                                <li><a href="mailto:mayankshakya992@gmail.com " target="_blank ">Mayank Shakya</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="text-center " style="color: #fff; font-size: 14px; padding: 8px; background: #EB5757;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+             ">
+                    <p style="margin: 0; padding: 0; ">Designed and Developed with 🧡 by Team Pocket KIT</p>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <script>
+        var rec = document.querySelector('.recommended-books');
+        var ser = document.querySelector('.searched-books');
+        var no = document.querySelector('.Enter-some-text');
+        var val = document.querySelector('#txt').value;
+        var preloader = document.querySelector('.loader');
+
+        function hello() {
+            var val = document.querySelector('#txt').value;
+            if (val === "") {
+                no.style.display = 'block';
+                rec.style.display = 'none';
+                ser.style.display = 'none';
+            } else {
+                no.style.display = 'none';
+                rec.style.display = 'none';
+                ser.style.display = 'block';
+            }
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
+    </script>
+</body>
+
+</html>
